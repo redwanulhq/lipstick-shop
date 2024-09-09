@@ -1,0 +1,89 @@
+.header {
+    height: 60px;
+    background: black;
+    color: white;
+}
+.header.transparent {
+    height: 60px;
+    background: transparent;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.p-card-title span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.single-product:hover {
+    transform: translateY(-10px);
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 15px;
+    position: relative;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.nav-toggle {
+    font-size: 35px;
+    cursor: pointer;
+}
+.nav-menu {
+    position: absolute;
+    top: 100%;
+    right: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px #464646;
+    margin-top: -10px;
+    z-index: 100;
+}
+.nav-menu a {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.nav-menu a svg {
+    font-size: 19px;
+}
+.nav-menu a:hover {
+    transform: translateX(5px);
+}
+.nav-menu .active {
+    color: tomato;
+    pointer-events: none;
+}
+a.logout-btn {
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+a.logout-btn:hover {
+    transform: none;
+}

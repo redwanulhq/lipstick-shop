@@ -1,0 +1,8 @@
+p.footer-copyright {
+    text-align: center;
+    background-color: black;
+    padding: 25px;
+    color: white;
+    margin: 0;
+    text-transform: capitalize;
+}

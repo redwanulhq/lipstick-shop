@@ -1,0 +1,97 @@
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 2px solid #fff;
+    transition: opacity 0.6s ease;
+}
+.carousel-caption {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+}
+.carousel-caption.caption-1 h5 {
+    font-size: 45px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+.carousel-caption.caption-1 p {
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 25px;
+}
+.carousel-caption.caption-1 p:last-child {
+    letter-spacing: 15px;
+    font-weight: 200;
+    font-size: 25px;
+}
+.cover .carousel-item img {
+    width: 100%;
+    height: 100vh;
+    min-height: 450px;
+    max-height: 700px;
+    object-fit: cover;
+}
+.cover .container {
+    width: 100%;
+    max-width: 1500px;
+    padding: 0;
+}
+.carousel-caption.caption-2 {
+    background-color: #d64e65d9;
+    height: 400px;
+    width: 400px;
+    right: 20px;
+    top: 50%;
+    left: unset;
+    transform: translateY(-50%);
+    padding: 50px;
+    align-items: flex-end;
+    text-align: right;
+}
+.carousel-caption.caption-2 h5 {
+    font-size: 35px;
+}
+.carousel-caption.caption-2 p {
+    font-size: 25px;
+    margin: 0;
+}
+a.cover-btn {
+    background: black;
+    display: inline-block;
+    padding: 8px 35px;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.carousel-caption.caption-3 {
+    left: unset;
+    justify-content: flex-start;
+    margin-top: 100px;
+}
+.carousel-caption.caption-3 h5 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
